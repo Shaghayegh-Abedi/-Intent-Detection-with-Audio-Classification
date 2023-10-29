@@ -6,7 +6,7 @@ In order to predict audio intent using the collected features, this study seeks 
  The suggested method can accurately categorize up to 58.8% of voices in a dataset of roughly **10k** samples. CNN yields 38% accuracy.
 
 ```SVM.py``` is Python implementation for SVM, including:
-
+```
 1. Preprocessing
   - Trimming silent areas
   - Adding length by padding
@@ -15,5 +15,5 @@ In order to predict audio intent using the collected features, this study seeks 
   - Scaling the result
 2. Model selection
 3. Model Test
-
+```
 - [ ] Add ANN to test higher accuracy :tada:
